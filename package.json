@@ -1,0 +1,25 @@
+{
+  "name": "synbydesign.design",
+  "version": "0.0.3",
+  "description": "Sass design for SynByDesign website",
+  "main": "src/styles/main.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmasiello/synbydesign.design.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "design",
+    "css"
+  ],
+  "author": "Eric Masiello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericmasiello/synbydesign.design/issues"
+  },
+  "homepage": "https://github.com/ericmasiello/synbydesign.design#readme"
+}
