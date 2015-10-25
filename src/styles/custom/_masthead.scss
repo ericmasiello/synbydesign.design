@@ -1,8 +1,5 @@
 .masthead {
-
-  //background: image-url('decoration-2.svg') no-repeat center 0, image-url('decoration-2.svg') no-repeat center 100%, transparent;
   font-family: $masthead-font-family;
-
 
   nav {
 
@@ -97,7 +94,7 @@
 
 .masthead__decoration {
 
-  background: image-url('decoration-2.svg') no-repeat center 0 transparent;
+  background: url('../images/decoration-2.svg') no-repeat center 0 transparent;
   background-size: contain;
   height: 2.25rem;
   margin: 0 2px;
@@ -106,7 +103,7 @@
 
 .masthead__decoration--bottom {
 
-  background-image: image-url('decoration.svg');
+  background-image: url('../images/decoration.svg');
   margin-bottom: -1rem;
   max-width: 10rem;
 }

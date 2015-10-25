@@ -1,6 +1,6 @@
 body {
 
-  background: image-url('masthead-gradient.png') center 0 no-repeat, image-url('background.png') 0 0 repeat transparent;
+  background: url('../images/masthead-gradient.png') center 0 no-repeat, url('../images/background.png') 0 0 repeat transparent;
   max-width: $body-max-width;
   margin: auto;
   padding: 2rem 1rem;
