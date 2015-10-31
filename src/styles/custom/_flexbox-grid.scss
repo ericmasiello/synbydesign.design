@@ -1,32 +1,6 @@
-/*
- *
- * Uncomment and set these variables to customize the grid.
- *
- * :root {
- *  --gutter-width: 1rem;
- *  --outer-margin: 2rem;
- *  --gutter-compensation: calc( var( --gutter-width / 2 ) * -1 );
- *  --half-gutter-width: calc( var( --gutter-width / 2 ) );
- *  --screen-xs-min: 30em;
- *  --screen-sm-min: 48em;
- *  --screen-md-min: 62em;
- *  --screen-lg-min: 75em;
- *  --container-sm: calc( 45rem + var( --gutter-width ) );
- *  --container-md: calc( 60rem + var( --gutter-width ) );
- *  --container-lg: calc( 70rem + var( --gutter-width ) );
- * }
- *
-*/
-
-//@custom-media --sm-viewport only screen and (min-width: 48em);
-//@custom-media --md-viewport only screen and (min-width: 62em);
-//@custom-media --lg-viewport only screen and (min-width: 75em);
-
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-right: var( --outer-margin, 2rem );
-  padding-left: var( --outer-margin, 2rem );
 }
 
 .row {
@@ -35,8 +9,6 @@
   flex: 0 1 auto;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-right: var( --gutter-compensation, -0.5rem );
-  margin-left: var( --gutter-compensation, -0.5rem );
 }
 
 .row.reverse {
@@ -78,8 +50,6 @@
   flex-direction: column;
   flex-grow: 0;
   flex-shrink: 0;
-  padding-right: var( --half-gutter-width, 0.5rem );
-  padding-left: var( --half-gutter-width, 0.5rem );
 }
 
 .col-xs {
@@ -271,8 +241,6 @@
     flex-direction: column;
     flex-grow: 0;
     flex-shrink: 0;
-    padding-right: var( --half-gutter-width, 0.5rem );
-    padding-left: var( --half-gutter-width, 0.5rem );
   }
 
   .col-sm {
@@ -465,8 +433,6 @@
     flex-direction: column;
     flex-grow: 0;
     flex-shrink: 0;
-    padding-right: var( --half-gutter-width, 0.5rem );
-    padding-left: var( --half-gutter-width, 0.5rem );
   }
 
   .col-md {
@@ -624,9 +590,6 @@
 }
 
 @media (min-width: $screen-lg-min) {
-  .container {
-    width: var( --container-lg, 71rem );
-  }
 
   .col-lg,
   .col-lg-1,
@@ -659,8 +622,6 @@
     flex-direction: column;
     flex-grow: 0;
     flex-shrink: 0;
-    padding-right: var( --half-gutter-width, 0.5rem );
-    padding-left: var( --half-gutter-width, 0.5rem );
   }
 
   .col-lg {
