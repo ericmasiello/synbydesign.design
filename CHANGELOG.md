@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.1
+* FIXED missing portfolio live
+
 ## 0.2.0
 * ADDED new portfolio layouts (3-up, image stack, live)
 * ADDED screen reader focus ring removal on selective items
