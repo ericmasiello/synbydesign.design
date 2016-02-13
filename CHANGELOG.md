@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0
+* ADDED new portfolio layouts (3-up, image stack, live)
+* ADDED screen reader focus ring removal on selective items
+* ADDED global page loading style to blur site
+* REFACTORED typography line heights
+
 ## 0.1.1
 * FIXED bug with detail view screen not showing full screen
 
