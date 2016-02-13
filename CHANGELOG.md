@@ -5,6 +5,7 @@
 * ADDED screen reader focus ring removal on selective items
 * ADDED global page loading style to blur site
 * REFACTORED typography line heights
+* ADDED webpack build for demoing styles
 
 ## 0.1.1
 * FIXED bug with detail view screen not showing full screen
