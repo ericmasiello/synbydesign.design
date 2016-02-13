@@ -1,9 +1,11 @@
 {
   "name": "synbydesign.design",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Sass design for SynByDesign website",
   "main": "src/styles/main.scss",
   "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --port 8282",
+    "build": "./node_modules/.bin/webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,20 @@
   "bugs": {
     "url": "https://github.com/ericmasiello/synbydesign.design/issues"
   },
-  "homepage": "https://github.com/ericmasiello/synbydesign.design#readme"
+  "homepage": "https://github.com/ericmasiello/synbydesign.design#readme",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.8.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "svg-inline-loader": "^0.4.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.7.3"
+  }
 }
