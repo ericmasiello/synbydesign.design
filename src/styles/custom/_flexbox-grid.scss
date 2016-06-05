@@ -206,9 +206,6 @@
 }
 
 @media (min-width: $screen-sm-min) {
-  .container {
-    width: var( --container-sm, 46rem );
-  }
 
   .col-sm,
   .col-sm-1,
@@ -398,9 +395,6 @@
 }
 
 @media (min-width: $screen-md-min) {
-  .container {
-    width: var( --container-md, 61rem );
-  }
 
   .col-md,
   .col-md-1,
