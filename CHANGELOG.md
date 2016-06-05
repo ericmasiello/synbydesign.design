@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.3.0
+* UPDATED Well background color 
+
 ## 0.2.1
 * FIXED missing portfolio live
 

@@ -2,6 +2,7 @@ $base-font-size: 10px;
 $body-max-width: 96rem;
 
 $highlight-dark-color: #7d0a57;
+$well-bg-color: #fefefe;
 $font-family-base: 'Open Sans', Helvetica, 'Helvetica Neue', Arial, sans-serif;
 $masthead-font-family: 'Hind', 'Myriad Pro', Helvetica, 'Helvetica Neue', Arial, sans-serif;
 $border-color: #5d656d;
@@ -14,8 +15,8 @@ $headings-h4-line-height: 1.35;
 $headings-h5-line-height: 1.42857;
 $headings-h6-line-height: 1.42857;
 
-$well-bg: lighten( $highlight-dark-color, 65% );
-$well-border: lighten( $highlight-dark-color, 60% );
+$well-bg: $well-bg-color;
+$well-border: darken( $well-bg-color, 15% );
 
 $pill-color: #274066;
 $pill-bg: rgba(179, 169, 173, 0.1);
@@ -71,6 +72,3 @@ $live-device-border-radius: 10;
 $phone-width: 3;
 $tablet-width: $phone-width * 2.222222222;
 $desktop-width: $phone-width * 4.444444444;
-
-
-
